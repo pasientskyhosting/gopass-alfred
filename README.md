@@ -10,7 +10,3 @@ Currently querying entries and copying username or password to clipboard is supp
 ## Installation
 
 Download the [latest release package](https://github.com/gopasspw/gopass-alfred/releases/latest) from github or build your own via `make release` in checked out repository.
-
-## Development
-
-Contributions to this project are welcome!

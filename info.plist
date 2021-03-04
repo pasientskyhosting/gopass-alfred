@@ -35,7 +35,7 @@
 		<array/>
 	</dict>
 	<key>createdby</key>
-	<string>Martin Hoefling</string>
+	<string>Chad Jones</string>
 	<key>description</key>
 	<string>Gopass password access</string>
 	<key>disabled</key>
@@ -52,7 +52,7 @@
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>script</key>
-				<string>export PATH=/usr/local/bin:$PATH
+				<string>export PATH=/opt/homebrew/bin:$PATH
 
 if [ -f ~/.gpg-agent-info ] &amp;&amp; [ -n "$(pgrep gpg-agent)" ]; then
 	source ~/.gpg-agent-info
@@ -63,7 +63,7 @@ fi
 
 export GPG_TTY="$(tty)"
 
-/usr/local/bin/gopass -c "{query}"
+/opt/homebrew/bin/gopass -c "{query}"
 
 RESULT=$?
 
